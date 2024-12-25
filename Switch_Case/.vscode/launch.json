@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "PenjualanSederhana",
+            "request": "launch",
+            "mainClass": "PenjualanSederhana",
+            "projectName": "Switch_Case_54755d42"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AGE",
+            "request": "launch",
+            "mainClass": "AGE",
+            "projectName": "Switch_Case_54755d42"
+        },
+        {
+            "type": "java",
+            "name": "IPK",
+            "request": "launch",
+            "mainClass": "IPK",
+            "projectName": "Switch_Case_54755d42"
+        },
+        {
+            "type": "java",
+            "name": "Kasir",
+            "request": "launch",
+            "mainClass": "Kasir",
+            "projectName": "Switch_Case_54755d42"
+        },
+        {
+            "type": "java",
+            "name": "Switch_Case",
+            "request": "launch",
+            "mainClass": "Switch_Case",
+            "projectName": "Switch_Case_54755d42"
+        },
+        {
+            "type": "java",
+            "name": "Urutan_Hari",
+            "request": "launch",
+            "mainClass": "Urutan_Hari",
+            "projectName": "Switch_Case_54755d42"
+        },
+        {
+            "type": "java",
+            "name": "kategoriNilai",
+            "request": "launch",
+            "mainClass": "kategoriNilai",
+            "projectName": "Switch_Case_54755d42"
+        }
+    ]
+}

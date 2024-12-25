@@ -1,0 +1,52 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "GJGN",
+            "request": "launch",
+            "mainClass": "GJGN",
+            "projectName": "IF_ELSE_1fcfce82"
+        },
+        {
+            "type": "java",
+            "name": "IF_ELSE",
+            "request": "launch",
+            "mainClass": "IF_ELSE",
+            "projectName": "IF_ELSE_1fcfce82"
+        },
+        {
+            "type": "java",
+            "name": "beratbadan",
+            "request": "launch",
+            "mainClass": "beratbadan",
+            "projectName": "IF_ELSE_1fcfce82"
+        },
+        {
+            "type": "java",
+            "name": "confess",
+            "request": "launch",
+            "mainClass": "confess",
+            "projectName": "IF_ELSE_1fcfce82"
+        },
+        {
+            "type": "java",
+            "name": "hasilUjian",
+            "request": "launch",
+            "mainClass": "hasilUjian",
+            "projectName": "IF_ELSE_1fcfce82"
+        
+        }
+
+        
+    ]
+}
