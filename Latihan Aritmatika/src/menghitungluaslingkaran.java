@@ -11,6 +11,7 @@ public class menghitungluaslingkaran {
         System.out.print("Masukan Jari-jari Lingkaran :");
         r = scan.nextFloat();
         luas = pi*(r*r);
+        scan.close();
         System.out.println("Luas lingkaran :" +luas);
     }
 }

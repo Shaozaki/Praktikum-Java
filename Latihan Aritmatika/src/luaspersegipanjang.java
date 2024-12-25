@@ -12,6 +12,7 @@ public class luaspersegipanjang {
         System.out.print("Masukan Lebar :");
         lebar = scan.nextFloat();
         luas = panjang * lebar;
+        scan.close();
         System.out.println("Luas Persegi panjang adalah :" +luas);
         System.out.println("==================================");
 
