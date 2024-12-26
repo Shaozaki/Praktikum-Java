@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class Queue {
     private final int maxSize;
     private final int[] queueArray;
@@ -11,7 +10,6 @@ class Queue {
         queueArray = new int[maxSize];
         front = 0;
         rear = -1;
-
     }
     public void enqueue(int value){
         if(rear == maxSize - 1){
@@ -61,7 +59,7 @@ public static void main(String[] args) {
         System.out.println("2. Dequeue");
         System.out.println("3. Display");
         System.out.println("0. Display");
-        System.out.print("Pilihan Anda");
+        System.out.print("Pilihan Anda :");
         choice = scan.nextInt();
 
         switch (choice) {
