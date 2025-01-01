@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Search {
     public static void main(String[] args) {
         Scanner masuk = new Scanner(System.in);
-        System.out.print("Masukan harga yang diinginkan : ");
+        System.out.print("Masukan data yang diinginkan : ");
         int panjangData = masuk.nextInt();
         int data[] = new int[panjangData];
 
