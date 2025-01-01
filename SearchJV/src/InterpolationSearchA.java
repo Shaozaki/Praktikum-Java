@@ -14,9 +14,6 @@ public class InterpolationSearchA {
                 }else{
                     high = pos - 1;}
                 }
-
-
-        
 }
 return -1;
 }
