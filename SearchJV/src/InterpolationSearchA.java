@@ -13,7 +13,7 @@ public class InterpolationSearchA {
                     low = pos + 1;
                 }else{
                     high = pos - 1;}
-                }
+                }        
 }
 return -1;
 }
