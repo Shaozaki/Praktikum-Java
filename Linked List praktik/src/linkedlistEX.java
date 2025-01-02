@@ -13,9 +13,9 @@ public class linkedlistEX {
         buah.add("Nanas");
         buah.add("Sirsak");
 
-        System.out.println("Saya Makan Buah"+buah);
+        System.out.println("Saya Makan Buah "+buah);
 
-        System.out.println("Di rumah saya setiap hari menydiakan "+buah.size()+" Macam buah-buahan");
+        System.out.println("Di rumah saya setiap hari menyediakan "+buah.size()+" Macam buah-buahan");
         
     }
 }
