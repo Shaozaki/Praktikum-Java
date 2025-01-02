@@ -14,6 +14,9 @@ public class linkedlistEX {
         buah.add("Nanas");
         buah.add("Sirsak");
         //Mencetak data
+        
+        buah.addFirst ("Paling atas");//Menambahkan data ke indexs paling atas
+        buah.addLast("Paling Bawah");//Menambahkan data ke indexs paling bawah
         System.out.println("Saya Makan Buah "+buah);
         //Menampilkan jumlah item 
         System.out.println("Di rumah saya setiap hari menyediakan "+buah.size()+" Macam buah-buahan");
