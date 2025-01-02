@@ -1,5 +1,6 @@
 import java.util.LinkedList;
-public class linkedlistEX {
+
+public class LinkedlistEX2 {
     public static void main(String[] args) {
         // Membuat instance atau objek daarai linkedList
         LinkedList <String> buah = new LinkedList<>();
@@ -13,6 +14,11 @@ public class linkedlistEX {
         buah.add("Semangka");
         buah.add("Nanas");
         buah.add("Sirsak");
+    
+        buah.addFirst("Paling atas");//Mengubah data ke indexs paling atas
+        buah.addLast("Paling bawah");//mengubah data ke indexs paling bawah
+        buah.set(2, "diubah");//Mengubah indexs ke 2
+        buah.set(5, "diganti");//mengubah indexs ke 5
         //Mencetak data
         System.out.println("Saya Makan Buah "+buah);
         //Menampilkan jumlah item 
@@ -20,3 +26,4 @@ public class linkedlistEX {
         
     }
 }
+
