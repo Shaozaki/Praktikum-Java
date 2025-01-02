@@ -5,9 +5,9 @@ public class QueueWithArray {
 
     public QueueWithArray(){
         this.queueArray = new int[MAX_SIZE];
-        this.front =0;
-        this.rear = -1;
-        this.size = 0;
+        this.front =  0;
+        this.rear  = -1;
+        this.size  =  0;
     }
 
     public void enqueue(int item) {
