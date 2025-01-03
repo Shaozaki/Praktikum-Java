@@ -8,6 +8,7 @@ public class linkedlistEX4 {
         //Menambahkan Data Pada Objek
         buah.add("Jeruk");
         buah.add("Jambu");
+        buah.add("Apel");
         buah.add("Melon");
         buah.add("Semangka");
 
