@@ -1,4 +1,4 @@
-public class linkedlist6 {
+public class arraylist6 {
     public static void main(String[] args) {
         //deklarasi tipe integer
         int[] anarray;
