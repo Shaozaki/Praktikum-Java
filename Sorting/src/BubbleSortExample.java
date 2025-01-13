@@ -4,7 +4,7 @@ public class BubbleSortExample {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
-    }           
+    }
     // fungsi untuk melakukan bubble sort
     public static void bubbleSort(int[] arr) {
         int n = arr.length;
@@ -21,7 +21,7 @@ public class BubbleSortExample {
     public static void printArray(int[] arr){
        for (int value : arr){
               System.out.print(value + " ");
-       }        
+       }
          System.out.println();
     }
 
@@ -37,5 +37,3 @@ public class BubbleSortExample {
     }
 
 }
- 
- 
