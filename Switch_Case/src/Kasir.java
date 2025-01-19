@@ -26,6 +26,7 @@ public class Kasir {
             
 
         }
+        scan.close();
         bayar = belanjaan-diskon;
         System.out.println("Total Bayar : " +bayar);
         }

@@ -36,5 +36,6 @@ public class Urutan_Hari {
             System.out.println(" angka tidak valid");
                 break;
         }
+        scan.close();
     }
 }

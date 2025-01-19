@@ -21,6 +21,6 @@ public class Switch_Case{
         System.out.print("Warna Lampu Salah");
             break;
     }
-
+scan.close();
     }
 }
