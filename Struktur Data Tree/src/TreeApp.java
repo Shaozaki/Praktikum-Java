@@ -38,11 +38,50 @@ public class TreeApp {
                 System.out.print("Enter value to finf: ");
                 value = getInt();
                 Node found = theTree.find(value);
-                
+                if (found != null){
+                    System.out.print("Found : ");
+                    found.displayNode();
+                    System.out.print("\n");
+                }else{
+                    System.out.println("Cold not find " 
+                    +value);
+                }
+                break;
+                case 'd':
+                System.out.print("Enter value delete ");
+                value : getInt();
+                boolean didDelete = theTree.delete(value);
+                if (didDelete){
+                    System.out.pritln("Delete" +value);
+                }else{
+                    System.out.println("Could not delete"
+                    +value);
+                }
+                break;
+            case 't':
+            System.out.print("Enter type 1, 2 or 3: ");
+            value = getInt();
+            theTree.traverse(value);
+            break;
+            default:
+            System.out.println("Invalid Entry");
             }
 
         }
         
-
+    }
+    public static String getString()throws IOException{
+        InputStreamReader isr = new InputStreamReader(System.in);
+        BufferedReader br = new BufferedReader(isr);
+        String s = br.readLine();
+        return s;
+    }
+    public static int getChar() throws IOException{
+        String s = getString();
+        return s.charAt(0);
+    }
+    public static int getInt() throws IOException{
+        String s = getString();
+        return Integer.parseInt(s);
     }
 }
