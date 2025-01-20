@@ -1,3 +1,4 @@
+package tree;
 public class Node {
     public int id;
     public String data;
