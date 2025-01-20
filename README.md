@@ -1,3 +1,3 @@
 # Praktikum Java
 
-## Berisi latihan latihan praktikum Java dari Matkul Algoritam dan Struktur data 
+## Berisi latihan latihan praktikum Java dari Matkul Algoritma dan Struktur data 
