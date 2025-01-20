@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class IPK {
     public static void main(String[] args) {
         //Deklarasi Nama dan IPK
+    @SuppressWarnings("unused")
     String nama ;
     Float nilai_ipk;
     Scanner scan = new Scanner(System.in);

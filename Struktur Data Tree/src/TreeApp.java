@@ -49,12 +49,12 @@ public class TreeApp {
                 break;
                 case 'd':
                 System.out.print("Enter value delete ");
-                value : getInt();
+                value = getInt();
                 boolean didDelete = theTree.delete(value);
                 if (didDelete){
-                    System.out.pritln("Delete" +value);
+                    System.out.println("Delete " +value);
                 }else{
-                    System.out.println("Could not delete"
+                    System.out.println("Could not delet "
                     +value);
                 }
                 break;
