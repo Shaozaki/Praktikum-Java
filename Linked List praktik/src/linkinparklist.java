@@ -1,5 +1,5 @@
 import java.util.*;
-public class arraylinkinparklist {
+public class linkinparklist {
     public static void main(String[] args) {
         LinkedList <String> object = new LinkedList<>();
 

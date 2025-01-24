@@ -196,6 +196,7 @@ public class Tree {
             nBlanks /= 2;
             while (localStack.isEmpty() == false) {
                 globalStack.push(localStack.pop());
+                
             }
         }
         System.out.println(".".repeat(20));

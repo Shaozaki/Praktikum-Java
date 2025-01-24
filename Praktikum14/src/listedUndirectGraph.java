@@ -1,5 +1,6 @@
 import java.util.*;
 
+@SuppressWarnings("unused")
 public class listedUndirectGraph {
     private final Map<Integer, List<Integer>> adjacencyList;
 
